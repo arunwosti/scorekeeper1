@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/scoreTeamA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="Team A"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="Team B"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="5sp"/>
+
+    <Button
+        android:id="@+id/btn_score3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:text="@string/_3_points"
+        android:textColor="@color/black"
+        app:backgroundTint="#07EDD8"
+        app:strokeColor="#3F51B5"
+        android:layout_marginBottom="5sp"/>
+
+
+    <Button
+        android:id="@+id/btn_score2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:text="@string/_2_points"
+        android:textColor="@color/black"
+        app:backgroundTint="#07EDD8"
+        app:strokeColor="@color/purple_700"
+        android:layout_marginBottom="5sp"/>
+
+    <Button
+        android:id="@+id/btn_score1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:text="@string/_1_points"
+        android:textColor="@color/black"
+        app:backgroundTint="#07EDD8"
+        app:strokeColor="#3F51B5" />
+</LinearLayout>
